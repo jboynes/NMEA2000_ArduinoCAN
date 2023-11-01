@@ -1,0 +1,30 @@
+{
+  "name": "NMEA2000-ArduinoCAN",
+  "owner": "jboynes",
+  "keywords": "nmea 2000, nmea, 2000, communication, bus, boat, marine",
+  "description": "CAN driver library for the NMEA2000 library using the Arduino CAN API",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/jboynes/NMEA2000_ArduinoCAN.git"
+  },
+  "authors":
+  {
+    "name": "Jeremy Boynes",
+    "maintainer": true
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "Arduino",
+  "dependencies":
+  [
+      {
+          "name": "NMEA2000-library",
+          "owner": "ttlappalainen",
+          "authors": "Timo Lappalainen",
+          "url": "Kave Oy <www.kave.fi>",
+          "maintainer": true
+      }
+   ]
+}
